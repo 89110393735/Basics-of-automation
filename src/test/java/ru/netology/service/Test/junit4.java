@@ -3,7 +3,7 @@ package ru.netology.service.Test;
 import org.junit.Test;
 import ru.netology.service.CashbackHackService;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class junit4 {
 
@@ -13,6 +13,6 @@ public class junit4 {
         int amout = 900;
         int actual = service.remain(amout);
         int expected = 100;
-        assertEquals(actual, expected );
+        assertEquals(actual, expected);
     }
 }
