@@ -3,7 +3,7 @@ package ru.netology.service.Test;
 import org.junit.Test;
 import ru.netology.service.CashbackHackService;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
 
