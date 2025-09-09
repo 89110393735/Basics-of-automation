@@ -1,11 +1,14 @@
-package ru.netology.service;
-import  org.junit.jupiter.api.Test;
+package ru.netology.service.Test;
+
+import org.junit.Test;
+import ru.netology.service.CashbackHackService;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
-    void calculateBonus() {
+    public void calculateBonusTest() {
         CashbackHackService service = new CashbackHackService();
         int amout = 900;
         int actual = service.remain(amout);
