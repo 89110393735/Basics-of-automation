@@ -1,14 +1,15 @@
 package ru.netology.service.Test;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import ru.netology.service.CashbackHackService;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.testng.AssertJUnit.assertEquals;
 
 public class CashbackHackServiceTest {
 
     @Test
-    public void calculateBonusTest() {
+    public void calculateBonus() {
         CashbackHackService service = new CashbackHackService();
         int amout = 900;
         int actual = service.remain(amout);
